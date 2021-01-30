@@ -1,16 +1,30 @@
 # latrag_app
 
-A new Flutter project.
+Egy segédprogram fõleg a latin házi feladatok
+megkönnyítéséhez. Automatikusan elragoz egy
+latin fõnevet, most app formában.
 
-## Getting Started
+# Telepítés
 
-This project is a starting point for a Flutter application.
+A Flutternek köszönhetõen ez az app elfut
 
-A few resources to get you started if this is your first Flutter project:
+ - Androidon
+ - iOS-en
+ - Linuxon
+ - Macen
+ - Windowson
+ - Webalkalmazásként
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+A helyi fordításhoz szükség van a Flutter CLI-re.
+(A [flutter.dev](https://flutter.dev) oldalról beszerezhetõ)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+$ flutter create . # Biztosítsuk az összes szükséges buildfájl meglételét
+$ flutter build <célpont>
+```
+
+<célpont> lehet
+
+ - `apk`: Androidhoz
+ - `windows` / `macosx` / `linux`
+ - `ios`
